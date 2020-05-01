@@ -58,9 +58,9 @@ class News extends Section implements Initializable
     public function onDisplay($payload = [])
     {
         $columns = [
-            // AdminColumn::text('id', 'ID')->setWidth('50px')->setHtmlAttribute('class', 'text-center'),
+            AdminColumn::text('id', 'ID')->setWidth('50px')->setHtmlAttribute('class', 'text-center'),
             AdminColumn::image('image', 'IMG')
-                ->setSmall('id')
+
             ,
             AdminColumn::link('title')->setLabel('Заголовок')
                 ->setSmall('url')
