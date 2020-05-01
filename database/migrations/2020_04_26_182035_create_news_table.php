@@ -32,7 +32,6 @@ class CreateNewsTable extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
