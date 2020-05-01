@@ -14,15 +14,15 @@ class MainController extends Controller
 {
     public function index()
     {
-        $news = News::inRandomOrder()->where('status','1')->limit(22)->get();
+        $news = News::inRandomOrder()->where('status', '1')->limit(22)->get();
         return view('index', compact('news'));
     }
 
     public function show($id)
     {
         $show = News::where('slug', $id)->first();
-        $tnews = News::inRandomOrder()->where('status','1')->limit(24)->get();
-        $previous = News::where('id', '<', $show->id)->orderBy('id', 'DESC')->first();
+        $tnews = News::inRandomOrder()->where('status', '1')->limit(24)->get();
+        $previous = News::where('status', '1')->where('id', '<', $show->id)->orderBy('id', 'DESC')->first();
         $months = $show->created_at->format('m');
         return view('show', compact('show', 'tnews', 'previous', 'months'));
     }
@@ -30,9 +30,9 @@ class MainController extends Controller
     public function full($id)
     {
         $full = News::where('slug', $id)->first();
-        $mnews = News::inRandomOrder()->where('status','1')->limit(3)->get();
-        $rnews = News::inRandomOrder()->where('status','1')->limit(5)->get();
-        $tnews = News::inRandomOrder()->where('status','1')->limit(22)->get();
+        $mnews = News::inRandomOrder()->where('status', '1')->limit(3)->get();
+        $rnews = News::inRandomOrder()->where('status', '1')->limit(5)->get();
+        $tnews = News::inRandomOrder()->where('status', '1')->limit(22)->get();
         $months = $full->created_at->format('m');
         event('NewsView', $full);
         return view('full', compact('full', 'rnews', 'tnews', 'mnews', 'months'));

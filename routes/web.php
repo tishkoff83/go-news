@@ -18,7 +18,7 @@ Auth::routes([
     'reset' => false,
     'confirm' => false,
     'verify' => false,
-    'register' => true,
+    'register' => false,
 ]);
 
 Route::middleware(['auth'])->group(function () {
