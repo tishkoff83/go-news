@@ -25,7 +25,7 @@
 <header class="header">
     <div class="container container-header">
         <div class="logo">
-            <p>advnews</p>
+           <p> advnews</p>
         </div>
         <div class="navigation" id="nav">
             <a  href="./index.php?category=7">События</a>
