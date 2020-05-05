@@ -7,6 +7,7 @@ use AdminColumnFilter;
 use AdminDisplay;
 use AdminForm;
 use AdminFormElement;
+use AdminColumnEditable;
 use Illuminate\Database\Eloquent\Model;
 use phpDocumentor\Reflection\Types\Nullable;
 use SleepingOwl\Admin\Contracts\Display\DisplayInterface;
@@ -71,21 +72,13 @@ class News extends Section implements Initializable
             ,
             // AdminColumn::text('title', 'Заголовок'),
             // AdminColumn::text('title', 'Title'),
-            AdminColumn::link('slug', 'Slug', 'created_at')
-//                ->setSearchCallback(function ($column, $query, $search) {
-//                    return $query
-//                        ->orWhere('slug', 'like', '%' . $search . '%')
-//                        ->orWhere('created_at', 'like', '%' . $search . '%');
-//                })
-                ->setOrderable(function ($query, $direction) {
-                    $query->orderBy('created_at', $direction);
-                })
-            ,
+            AdminColumn::link('slug', 'ЧПУ'),
             AdminColumn::text('view', 'View')->setWidth('70px'),
             AdminColumn::text('click', 'Click')->setWidth('70px'),
 
+            AdminColumnEditable::checkbox('status', 'Запущен')->setWidth('90px'),
 
-            AdminColumn::boolean('status', 'Status'),
+           // AdminColumn::boolean('status', 'Status'),
 
             AdminColumn::text('created_at', 'Created / updated', 'updated_at')
                 ->setWidth('160px')
@@ -169,17 +162,24 @@ class News extends Section implements Initializable
                 ,
 
                 AdminFormElement::html('<hr>'),
-                AdminFormElement::select('status', 'Статус тизера', ['Остановть', 'Запустить'])
-                    ->required()
-                ,
+                AdminFormElement::columns()
+                    ->addColumn([
+                        AdminFormElement::select('status', 'Статус тизера', ['Остановть', 'Запустить'])->required()
+                    ], 4)->addColumn([
+                        AdminFormElement::text('view', 'Показы')->required()
+                    ], 3)->addColumn([
+                        AdminFormElement::text('click', 'Клики')->required()
+                    ], 3)->addColumn([
+                        AdminFormElement::text('ctr', 'CTR')->required()
+                    ]),
+
+//                AdminFormElement::radio('status', 'Published')->setOptions(['0' => 'Not published', '1' => 'Published'])
+//                    ->required(),
+          //      AdminFormElement::select('status', 'Статус тизера', ['Остановть', 'Запустить'])->required(),
+
 
                 AdminFormElement::html('<hr>'),
                 AdminFormElement::textarea('note', 'Для заметок')->setRows('5'),
-
-                AdminFormElement::html('<hr>'),
-                AdminFormElement::text('view', 'Показы'),
-
-
 
 
             ], 'col-xs-12 col-sm-6 col-md-6 col-lg-6')
