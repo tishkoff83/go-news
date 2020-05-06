@@ -25,7 +25,7 @@
 <header class="header">
     <div class="container container-header">
         <div class="logo">
-           <p> advnews</p>
+           <p>ok-news</p>
         </div>
         <div class="navigation" id="nav">
             <a  href="./index.php?category=7">События</a>
@@ -47,12 +47,12 @@
 <footer class="footer">
     <div class="container container-header">
         <div class="logo">
-            <p>advnews.ru</p>
+            <p>ok-news.online</p>
         </div>
     </div>
 </footer>
 <script src="{{ asset('js/script.js') }}"></script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(36577360, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/36577360" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47837288, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47837288" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 <!--LiveInternet counter--><script type="text/javascript">
     document.write('<a href="//www.liveinternet.ru/click" '+
         'target="_blank"><img src="//counter.yadro.ru/hit?t45.1;r'+
