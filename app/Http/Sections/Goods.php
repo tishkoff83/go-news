@@ -9,7 +9,6 @@ use AdminForm;
 use AdminFormElement;
 use AdminColumnEditable;
 use Illuminate\Database\Eloquent\Model;
-use phpDocumentor\Reflection\Types\Nullable;
 use SleepingOwl\Admin\Contracts\Display\DisplayInterface;
 use SleepingOwl\Admin\Contracts\Form\FormInterface;
 use SleepingOwl\Admin\Contracts\Initializable;
@@ -20,13 +19,13 @@ use SleepingOwl\Admin\Form\Buttons\SaveAndCreate;
 use SleepingOwl\Admin\Section;
 
 /**
- * Class News
+ * Class Goods
  *
- * @property \App\News $model
+ * @property \App\Goods $model
  *
  * @see https://sleepingowladmin.ru/#/ru/model_configuration_section
  */
-class News extends Section implements Initializable
+class Goods extends Section implements Initializable
 {
     /**
      * @var bool
@@ -48,7 +47,7 @@ class News extends Section implements Initializable
      */
     public function initialize()
     {
-        $this->addToNavigation()->setPriority(100)->setIcon('fa fa-file-text');
+        $this->addToNavigation()->setPriority(100)->setIcon('fa fa-lightbulb-o');
     }
 
     /**
@@ -59,7 +58,7 @@ class News extends Section implements Initializable
     public function onDisplay($payload = [])
     {
         $columns = [
-            AdminColumn::text('id', 'ID')->setWidth('50px')->setHtmlAttribute('class', 'text-center'),
+            AdminColumn::text('id', '#')->setWidth('50px')->setHtmlAttribute('class', 'text-center'),
             AdminColumn::image('image', 'IMG'),
 
             AdminColumn::link('title')->setLabel('Заголовок')
@@ -69,15 +68,13 @@ class News extends Section implements Initializable
                         ->orWhere('title', 'like', '%' . $search . '%');
                 })
             ,
-            // AdminColumn::text('title', 'Заголовок'),
-            // AdminColumn::text('title', 'Title'),
             AdminColumn::link('slug', 'ЧПУ'),
             AdminColumn::text('view', 'View')->setWidth('70px'),
             AdminColumn::text('click', 'Click')->setWidth('70px'),
 
             AdminColumnEditable::checkbox('status', 'Запущен')->setWidth('90px'),
 
-           // AdminColumn::boolean('status', 'Status'),
+            // AdminColumn::boolean('status', 'Status'),
 
             AdminColumn::text('created_at', 'Created / updated', 'updated_at')
                 ->setWidth('160px')
@@ -98,7 +95,7 @@ class News extends Section implements Initializable
 
         $display->setColumnFilters([
             AdminColumnFilter::select()
-                ->setModelForOptions(\App\News::class, 'title')
+                ->setModelForOptions(\App\Goods::class, 'title')
                 ->setLoadOptionsQueryPreparer(function ($element, $query) {
                     return $query;
                 })
@@ -125,8 +122,14 @@ class News extends Section implements Initializable
                 AdminFormElement::text('title', 'Заголовок')
                     ->required()
                 ,
+
                 AdminFormElement::html('<hr>'),
-                AdminFormElement::ckeditor('body', 'Статья')
+                AdminFormElement::text('url', 'Ссылка')
+                    ->required()
+                ,
+
+                AdminFormElement::html('<hr>'),
+                AdminFormElement::image('image', 'Картинка')
                     ->required()
                 ,
 
@@ -141,24 +144,9 @@ class News extends Section implements Initializable
                     ->setReadonly(false)
                 ,
 
-                AdminFormElement::html('<hr>'),
-                AdminFormElement::text('link', 'Источник'),
-
-                AdminFormElement::html('<hr>'),
-                AdminFormElement::text('origin_link', 'Parse link'),
-
-                //  AdminFormElement::html('last AdminFormElement without comma')
 
             ], 'col-xs-12 col-sm-6 col-md-6 col-lg-6')->addColumn([
                 AdminFormElement::text('id', 'ID')->setReadonly(true),
-
-                AdminFormElement::html('<hr>'),
-                AdminFormElement::text('url', 'Ссылка'),
-
-                AdminFormElement::html('<hr>'),
-                AdminFormElement::image('image', 'Картинка')
-                    ->required()
-                ,
 
                 AdminFormElement::html('<hr>'),
                 AdminFormElement::columns()
@@ -174,7 +162,7 @@ class News extends Section implements Initializable
 
 //                AdminFormElement::radio('status', 'Published')->setOptions(['0' => 'Not published', '1' => 'Published'])
 //                    ->required(),
-          //      AdminFormElement::select('status', 'Статус тизера', ['Остановть', 'Запустить'])->required(),
+                //      AdminFormElement::select('status', 'Статус тизера', ['Остановть', 'Запустить'])->required(),
 
 
                 AdminFormElement::html('<hr>'),
