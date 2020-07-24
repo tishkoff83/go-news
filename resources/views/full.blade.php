@@ -26,31 +26,32 @@
                             {!! $full->body !!}
                         </div>
 
-                        <script async src="//bpioqb.com/7t017l129lvi0mp03yqh8/678vqu786ypkw1z59e.php"></script>
-                        <div data-la-block="bce83f50-d70b-450b-ac54-bd42b3194ea5"></div>
 
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
 
-                            @foreach($mnews as $one)
-                                <div class="item item-t item-hr add-shows" data-id="25789">
-                                    <div class="teaser">
-                                        <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"
-                                           target="_blank"></a>
-                                        <div class="item-overlay"></div>
-                                        <div class="item-overlay-blur">
-                                            <img src="{{ asset($one->image) }}">
-                                        </div>
-                                        <div class="item-image">
-                                            <img src="{{ asset($one->image) }}">
-                                        </div>
-                                        <div class="item-title">{{$one->title}}</div>
-                                        {{-- <div class="item-category">Суставы</div>--}}
-                                        {{-- <div class="item-date">8 минут назад</div>--}}
-                                        {{--  <div class="item-button">Подробнее</div>--}}
-                                    </div>
-                                </div>
-                            @endforeach
+                            <script async src="//bpioqb.com/7t017l129lvi0mp03yqh8/678vqu786ypkw1z59e.php"></script>
+                            <div data-la-block="bce83f50-d70b-450b-ac54-bd42b3194ea5"></div>
+
+{{--                            @foreach($mnews as $one)--}}
+{{--                                <div class="item item-t item-hr add-shows" data-id="25789">--}}
+{{--                                    <div class="teaser">--}}
+{{--                                        <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"--}}
+{{--                                           target="_blank"></a>--}}
+{{--                                        <div class="item-overlay"></div>--}}
+{{--                                        <div class="item-overlay-blur">--}}
+{{--                                            <img src="{{ asset($one->image) }}">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="item-image">--}}
+{{--                                            <img src="{{ asset($one->image) }}">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="item-title">{{$one->title}}</div>--}}
+{{--                                        --}}{{-- <div class="item-category">Суставы</div>--}}
+{{--                                        --}}{{-- <div class="item-date">8 минут назад</div>--}}
+{{--                                        --}}{{--  <div class="item-button">Подробнее</div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            @endforeach--}}
 
                         </div>
                     </div>
