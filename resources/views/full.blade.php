@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Миру предсказали четыре года кризиса')
+@section('title', $full->title )
 
 @section('content')
 
@@ -18,6 +18,9 @@
 {{--                                                <div class="item-category">Экономика</div>--}}
                                             </div>
                         <h1> {{ $full->title }} </h1>
+
+                        <script async src="//bpioqb.com/smd1l7/921vli/pm0y30q8h687vqu687pyk3g.php"></script>
+                        <div data-la-block="46ee8db0-b5eb-436d-8fd9-28e188a4e5c9"></div>
 
                         <div>
                             {!! $full->body !!}
