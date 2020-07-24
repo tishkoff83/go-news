@@ -21,7 +21,7 @@
 
                         <script async src="//bpioqb.com/smd1l7/921vli/pm0y30q8h687vqu687pyk3g.php"></script>
                         <div data-la-block="46ee8db0-b5eb-436d-8fd9-28e188a4e5c9"></div>
-<br>
+
                         <div>
                             {!! $full->body !!}
                         </div>
@@ -60,6 +60,9 @@
             <div class="w-50 right">
                 <div class="items-box sticky">
                     <div class="item-title">Рекомендуем</div>
+
+                    <script async src="//bpioqb.com/xws17l192/vil0mp/0y3h8q768quv/687pyknqo.php"></script>
+                    <div data-la-block="d3c54e9d-c038-4ba1-b73a-4d3a76f41338"></div>
 
                     @include('layouts.rigthFullNews', compact('rnews'))
 
