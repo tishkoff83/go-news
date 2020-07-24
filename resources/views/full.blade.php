@@ -61,8 +61,6 @@
                 <div class="items-box sticky">
                     <div class="item-title">Рекомендуем</div>
 
-                    <script async src="//bpioqb.com/xws17l192/vil0mp/0y3h8q768quv/687pyknqo.php"></script>
-                    <div data-la-block="d3c54e9d-c038-4ba1-b73a-4d3a76f41338"></div>
 
                     @include('layouts.rigthFullNews', compact('rnews'))
 
