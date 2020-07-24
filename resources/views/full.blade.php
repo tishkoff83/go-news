@@ -20,7 +20,9 @@
                         <h1> {{ $full->title }} </h1>
 
                         <script async src="//bpioqb.com/smd1l7/921vli/pm0y30q8h687vqu687pyk3g.php"></script>
-                        <div data-la-block="46ee8db0-b5eb-436d-8fd9-28e188a4e5c9"></div>
+                        <script async src="//bpioqb.com/ven7l1/921vli0mp0y3/q8h867uqv/876/ypkl6qgv2.php"></script>
+                        <script async src="//bpioqb.com/9nm7l1921/ilv0mp3y0/8qh786/vuq687kpy9pkeh.php"></script>
+                        <div id="content_rb_154870" class="content_rb" data-id="154870"></div>
 
                         <div>
                             {!! $full->body !!}
