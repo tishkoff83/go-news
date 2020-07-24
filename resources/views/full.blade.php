@@ -21,10 +21,14 @@
 
                         <script async src="//bpioqb.com/smd1l7/921vli/pm0y30q8h687vqu687pyk3g.php"></script>
                         <div data-la-block="46ee8db0-b5eb-436d-8fd9-28e188a4e5c9"></div>
-
+<br>
                         <div>
                             {!! $full->body !!}
                         </div>
+
+                        <script async src="//bpioqb.com/7t017l129lvi0mp03yqh8/678vqu786ypkw1z59e.php"></script>
+                        <div data-la-block="bce83f50-d70b-450b-ac54-bd42b3194ea5"></div>
+
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
 
