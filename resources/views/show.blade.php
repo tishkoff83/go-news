@@ -48,9 +48,14 @@
                     <div class="item-button">Читать полностью</div>
                 </div>
             </div>
+            <script async src="//bpioqb.com/6mn1l7192/ilvm0p3y0q8h876/vqu786kype3.php"></script>
+            <div data-la-block="26cf2336-b2bc-417f-88bc-4dc67ce8308f"></div>
             @include('layouts.news', compact('tnews'))
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>
 </main>
+
+
+
 @endsection

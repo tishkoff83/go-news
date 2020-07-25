@@ -50,7 +50,7 @@
     </div>
 </header>
 
-@yield('content');
+@yield('content')
 
 <footer class="footer">
     <div class="container container-header">
