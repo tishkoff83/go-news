@@ -47,7 +47,6 @@
 {{--                    <div class="item-category">Экономика</div>--}}
                     <div class="item-button">Читать полностью</div>
                 </div>
-
             </div>
             @include('layouts.news', compact('tnews'))
         </div>
