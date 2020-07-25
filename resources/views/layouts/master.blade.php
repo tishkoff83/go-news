@@ -15,6 +15,10 @@
     <script async src="//bpioqb.com/ven7l1/921vli0mp0y3/q8h867uqv/876/ypkl6qgv2.php"></script>
     <script async src="//bpioqb.com/9nm7l1921/ilv0mp3y0/8qh786/vuq687kpy9pkeh.php"></script>
     <script async src="//bpioqb.com/u8vl71129ivl/0pm/y30/qh8/867vuq786ykprcns.php"></script>
+
+    <script async src="//bpioqb.com/axvl71219livmp003yhq8687/quv678kpyben.php"></script>
+    <script async src="//bpioqb.com/x7k1l7129lvi0mp/30y8qh768vuq768kpy90muwo.php"></script>
+
     <script type="text/javascript"> rbConfig={start:performance.now(),rbDomain:"newrrb.bid",rotator:'16s7h'};</script>
     <script async="async" type="text/javascript" src="//newrrb.bid/16s7h.min.js"></script>
 
