@@ -19,9 +19,6 @@
                                             </div>
                         <h1> {{ $full->title }} </h1>
 
-
-                        <div id="content_rb_154870" class="content_rb" data-id="154870"></div>
-
                         <div>
                             {!! $full->body !!}
                         </div>
@@ -30,7 +27,6 @@
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
 
-                            <div id="content_rb_154873" class="content_rb" data-id="154873"></div>
 
 {{--                            @foreach($mnews as $one)--}}
 {{--                                <div class="item item-t item-hr add-shows" data-id="25789">--}}
@@ -61,7 +57,7 @@
                     <div class="item-title">Рекомендуем</div>
 
 
-                    @include('layouts.rigthFullNews', compact('rnews'))
+{{--                    @include('layouts.rigthFullNews', compact('rnews'))--}}
 
                 </div>
             </div>
@@ -69,7 +65,12 @@
         <div class="container container-list w-100">
             <div class="items-box" id="load">
 
-                @include('layouts.news', compact('tnews'))
+                <script async src="//lomqbs.com/4ij7l1912liv/0mp30yqh8/786uqv/867/ykp2usky.php"></script>
+                <div data-la-block="8451f0cb-add3-40b5-af74-66b27d312fe2"></div>
+                <script async src="//lomqbs.com/lgxl71912ivl/pm0y03hq8687vuq768ypkeovt.php"></script>
+                <div data-la-block="0de43702-bf53-4e1b-ac2f-51ddcbe72c30"></div>
+
+{{--                @include('layouts.news', compact('tnews'))--}}
 
             </div>
             {{--            <div class="loader"><img src="./assets/img/loading.gif"></div>--}}

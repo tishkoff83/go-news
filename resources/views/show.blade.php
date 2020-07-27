@@ -48,7 +48,13 @@
                     <div class="item-button">Читать полностью</div>
                 </div>
             </div>
-            @include('layouts.news', compact('tnews'))
+
+            <script async src="//lomqbs.com/4ij7l1912liv/0mp30yqh8/786uqv/867/ykp2usky.php"></script>
+            <div data-la-block="8451f0cb-add3-40b5-af74-66b27d312fe2"></div>
+            <script async src="//lomqbs.com/lgxl71912ivl/pm0y03hq8687vuq768ypkeovt.php"></script>
+            <div data-la-block="0de43702-bf53-4e1b-ac2f-51ddcbe72c30"></div>
+
+{{--            @include('layouts.news', compact('tnews'))--}}
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>
