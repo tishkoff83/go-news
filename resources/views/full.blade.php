@@ -27,6 +27,8 @@
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
 
+                            <script async src="//lomqbs.com/n2wl71/192/lvip0m/3y08qh687vqu687ypkc1.php"></script>
+                            <div data-la-block="1c8eaac4-554b-4045-9946-3172988885fd"></div>
 
 {{--                            @foreach($mnews as $one)--}}
 {{--                                <div class="item item-t item-hr add-shows" data-id="25789">--}}
@@ -56,6 +58,8 @@
                 <div class="items-box sticky">
                     <div class="item-title">Рекомендуем</div>
 
+                    <script async src="//lomqbs.com/vbc1l7912lvip0m03yqh8867quv768/pky0a.php"></script>
+                    <div data-la-block="aeb51aa8-bf6d-4c4b-a98e-5dacfb6f47e0"></div>
 
 {{--                    @include('layouts.rigthFullNews', compact('rnews'))--}}
 
@@ -65,8 +69,6 @@
         <div class="container container-list w-100">
             <div class="items-box" id="load">
 
-                <script async src="//lomqbs.com/4ij7l1912liv/0mp30yqh8/786uqv/867/ykp2usky.php"></script>
-                <div data-la-block="8451f0cb-add3-40b5-af74-66b27d312fe2"></div>
                 <script async src="//lomqbs.com/lgxl71912ivl/pm0y03hq8687vuq768ypkeovt.php"></script>
                 <div data-la-block="0de43702-bf53-4e1b-ac2f-51ddcbe72c30"></div>
 
