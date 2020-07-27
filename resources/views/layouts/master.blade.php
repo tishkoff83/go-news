@@ -11,6 +11,9 @@
     <link href="{{ asset('css/starter-template.css') }}" rel="stylesheet">
     <script src="{{ asset('js/jquery.min.js') }}"></script>
 
+    <script type="text/javascript"> rbConfig={start:performance.now(),rbDomain:"newrrb.bid",rotator:'16s7h'}; </script>
+    <script async="async" type="text/javascript" src="//newrrb.bid/16s7h.min.js"></script>
+
 </head>
 <body>
 <div class="container">
