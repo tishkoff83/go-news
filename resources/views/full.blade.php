@@ -19,6 +19,8 @@
                                             </div>
                         <h1> {{ $full->title }} </h1>
 
+                        <div id="content_rb_154870" class="content_rb" data-id="154870"></div>
+
                         <div>
                             {!! $full->body !!}
                         </div>
@@ -27,8 +29,7 @@
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
 
-                            <script async src="//lomqbs.com/n2wl71/192/lvip0m/3y08qh687vqu687ypkc1.php"></script>
-                            <div data-la-block="1c8eaac4-554b-4045-9946-3172988885fd"></div>
+                            <div id="content_rb_155519" class="content_rb" data-id="155519"></div>
 
 {{--                            @foreach($mnews as $one)--}}
 {{--                                <div class="item item-t item-hr add-shows" data-id="25789">--}}
