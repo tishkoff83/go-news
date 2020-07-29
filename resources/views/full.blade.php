@@ -41,9 +41,9 @@
                                             <img src="{{ asset($one->image) }}">
                                         </div>
                                         <div class="item-title">{{$one->title}}</div>
-                                         <div class="item-category">Суставы</div>
-                                         <div class="item-date">8 минут назад</div>
-                                          <div class="item-button">Подробнее</div>
+{{--                                         <div class="item-category">Суставы</div>--}}
+{{--                                         <div class="item-date">8 минут назад</div>--}}
+{{--                                          <div class="item-button">Подробнее</div>--}}
                                     </div>
                                 </div>
                             @endforeach
