@@ -48,11 +48,7 @@
                     <div class="item-button">Читать полностью</div>
                 </div>
             </div>
-
-            <div id="content_rb_155516" class="content_rb" data-id="155516"></div>
-            <div id="content_rb_155517" class="content_rb" data-id="155517"></div>
-
-{{--            @include('layouts.news', compact('tnews'))--}}
+            @include('layouts.news', compact('tnews'))
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>
