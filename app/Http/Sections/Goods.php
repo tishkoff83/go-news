@@ -174,7 +174,7 @@ class Goods extends Section implements Initializable
 
                 AdminFormElement::html('<hr>'),
 
-               AdminFormElement::multiselect('country', 'country')->setOptions(['RU' => 'Russia', 'BY' => 'Belarus']),
+             //  AdminFormElement::multiselect('country', 'country')->setOptions(['RU' => 'Russia', 'BY' => 'Belarus']),
               //  AdminFormElement::multiselect('country', 'Companies', Country::class)->setDisplay('iso'),
 
 
