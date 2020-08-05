@@ -32,11 +32,12 @@ class MainController extends Controller
     {
         $full = News::where('slug', $id)->first();
         $mnews = Goods::inRandomOrder()->where('status', '1')->limit(3)->get();
+        $fnews = Goods::inRandomOrder()->where('status', '1')->limit(1)->get();
         $rnews = Goods::inRandomOrder()->where('status', '1')->limit(5)->get();
         $tnews = Goods::inRandomOrder()->where('status', '1')->limit(22)->get();
         $months = $full->created_at->format('m');
         event('NewsView', $full);
-        return view('full', compact('full', 'rnews', 'tnews', 'mnews', 'months'));
+        return view('full', compact('full', 'rnews', 'fnews', 'tnews', 'mnews', 'months'));
     }
 
     public function link($id)

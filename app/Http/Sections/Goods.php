@@ -8,6 +8,8 @@ use AdminDisplay;
 use AdminForm;
 use AdminFormElement;
 use AdminColumnEditable;
+use AdminSection;
+use App\Country;
 use Illuminate\Database\Eloquent\Model;
 use SleepingOwl\Admin\Contracts\Display\DisplayInterface;
 use SleepingOwl\Admin\Contracts\Form\FormInterface;
@@ -115,6 +117,8 @@ class Goods extends Section implements Initializable
      *
      * @return FormInterface
      */
+
+
     public function onEdit($id = null, $payload = [])
     {
         $form = AdminForm::card()->addBody([
@@ -168,9 +172,31 @@ class Goods extends Section implements Initializable
                 AdminFormElement::html('<hr>'),
                 AdminFormElement::textarea('note', 'Для заметок')->setRows('5'),
 
+                AdminFormElement::html('<hr>'),
+
+             //  AdminFormElement::multiselect('country', 'country')->setOptions(['RU' => 'Russia', 'BY' => 'Belarus']),
+              //  AdminFormElement::multiselect('country', 'Companies', Country::class)->setDisplay('iso'),
+
+
+     //   AdminFormElement::multiselect('country', 'Geo', Country::class),
+
+             //   AdminFormElement::multiselect('iso', 'Гео')->setModelForOptions(Country::class, 'iso')
+
+            //    AdminFormElement::checkbox('status', )->setOptions(['RU' => 'Russia', 'BY' => 'Belarus'])
 
             ], 'col-xs-12 col-sm-6 col-md-6 col-lg-6')
+
         ]);
+
+        //$country = AdminSection::getModel(Country::class)->fireDisplay();
+
+       // $country->getScopes()->push(['withGoods', $id]);
+       // $country->setParameter('goods_id', $id);
+      //  $country->getColumns()->disableControls();
+
+
+
+
 
 
         $form->getButtons()->setButtons([

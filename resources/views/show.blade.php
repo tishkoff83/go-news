@@ -53,4 +53,7 @@
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>
 </main>
+
+
+
 @endsection
