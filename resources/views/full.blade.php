@@ -19,6 +19,7 @@
                                             </div>
                         <h1> {{ $full->title }} </h1>
 
+
                         @foreach($fnews as $one)
                             <div class="item item-t item-hr add-shows">
                                 <div class="teaser">
@@ -38,6 +39,9 @@
                                 </div>
                             </div>
                         @endforeach
+
+                        <div id="content_rb_154870" class="content_rb" data-id="154870"></div>
+
 
                         <div>
                             {!! $full->body !!}
