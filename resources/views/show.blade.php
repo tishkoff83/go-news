@@ -62,6 +62,20 @@
                     );})(window, 'mtzBlocks');
                 </script>
             </div>
+            <div id="konej-idavamokecicuvaliti">
+                <script>
+                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                        {id:'konej-idavamokecicuvaliti',block:'98403', site_id:'19725'}
+                    );})(window, 'mtzBlocks');
+                </script>
+            </div>
+            <div id="forebul-ipidelekemohidoye">
+                <script>
+                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                        {id:'forebul-ipidelekemohidoye',block:'98404', site_id:'19725'}
+                    );})(window, 'mtzBlocks');
+                </script>
+            </div>
 {{--            @include('layouts.news', compact('tnews'))--}}
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
