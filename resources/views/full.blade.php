@@ -55,25 +55,34 @@
 
                         <div class="item-recommended">
                             <div class="item-title">Читайте также</div>
-                            @foreach($mnews as $one)
-                                <div class="item item-t item-hr add-shows">
-                                    <div class="teaser">
-                                        <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"
-                                           target="_blank"></a>
-                                        <div class="item-overlay"></div>
-                                        <div class="item-overlay-blur">
-                                            <img src="{{ asset($one->image) }}">
-                                        </div>
-                                        <div class="item-image">
-                                            <img src="{{ asset($one->image) }}">
-                                        </div>
-                                        <div class="item-title">{{$one->title}}</div>
+
+                            <div id="gimituf-eyihujaxokudasesa">
+                                <script>
+                                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                                        {id:'gimituf-eyihujaxokudasesa',block:'98407', site_id:'19725'}
+                                    );})(window, 'mtzBlocks');
+                                </script>
+                            </div>
+
+{{--                            @foreach($mnews as $one)--}}
+{{--                                <div class="item item-t item-hr add-shows">--}}
+{{--                                    <div class="teaser">--}}
+{{--                                        <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"--}}
+{{--                                           target="_blank"></a>--}}
+{{--                                        <div class="item-overlay"></div>--}}
+{{--                                        <div class="item-overlay-blur">--}}
+{{--                                            <img src="{{ asset($one->image) }}">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="item-image">--}}
+{{--                                            <img src="{{ asset($one->image) }}">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="item-title">{{$one->title}}</div>--}}
 {{--                                         <div class="item-category">Суставы</div>--}}
 {{--                                         <div class="item-date">8 минут назад</div>--}}
 {{--                                          <div class="item-button">Подробнее</div>--}}
-                                    </div>
-                                </div>
-                            @endforeach
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            @endforeach--}}
 
                         </div>
                     </div>
@@ -83,15 +92,6 @@
                 <div class="items-box sticky">
                     <div class="item-title">Рекомендуем</div>
 {{--                    @include('layouts.rigthFullNews', compact('rnews'))--}}
-
-                   <div id="gimituf-eyihujaxokudasesa">
-                        <script>
-                            !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                                {id:'gimituf-eyihujaxokudasesa',block:'98407', site_id:'19725'}
-                            );})(window, 'mtzBlocks');
-                        </script>
-                    </div>
-
                 </div>
             </div>
         </div>
