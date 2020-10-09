@@ -22,14 +22,6 @@
         });
     </script>
 
-    <div id="migizile-cizuvonilajarala">
-        <script>
-            !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                {id:'migizile-cizuvonilajarala',block:'98406', site_id:'19725'}
-            );})(window, 'mtzBlocks');
-        </script>
-    </div>
-
 <main class="main">
     <div class="container container-list w-100">
         <div class="items-box" id="load">
@@ -57,37 +49,7 @@
                     <div class="item-button">Читать полностью</div>
                 </div>
             </div>
-
-            <div id="xom-irawucakoxaxabukeyefe">
-                <script>
-                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                        {id:'xom-irawucakoxaxabukeyefe',block:'98257', site_id:'19725'}
-                    );})(window, 'mtzBlocks');
-                </script>
-            </div>
-            <div id="zed-egufovanelotidutokeqo">
-                <script>
-                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                        {id:'zed-egufovanelotidutokeqo',block:'98258', site_id:'19725'}
-                    );})(window, 'mtzBlocks');
-                </script>
-            </div>
-            <div id="konej-idavamokecicuvaliti">
-                <script>
-                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                        {id:'konej-idavamokecicuvaliti',block:'98403', site_id:'19725'}
-                    );})(window, 'mtzBlocks');
-                </script>
-            </div>
-            <div id="forebul-ipidelekemohidoye">
-                <script>
-                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
-                        {id:'forebul-ipidelekemohidoye',block:'98404', site_id:'19725'}
-                    );})(window, 'mtzBlocks');
-                </script>
-            </div>
-
-{{--            @include('layouts.news', compact('tnews'))--}}
+            @include('layouts.news', compact('tnews'))
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>
