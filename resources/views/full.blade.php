@@ -20,28 +20,33 @@
                         <h1> {{ $full->title }} </h1>
 
 
-                        @foreach($fnews as $one)
-                            <div class="item item-t item-hr add-shows">
-                                <div class="teaser">
-                                    <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"
-                                       target="_blank"></a>
-                                    <div class="item-overlay"></div>
-                                    <div class="item-overlay-blur">
-                                        <img src="{{ asset($one->image) }}">
-                                    </div>
-                                    <div class="item-image">
-                                        <img src="{{ asset($one->image) }}">
-                                    </div>
-                                    <div class="item-title">{{$one->title}}</div>
-                                    {{--                                         <div class="item-category">Суставы</div>--}}
-                                    {{--                                         <div class="item-date">8 минут назад</div>--}}
-                                    {{--                                          <div class="item-button">Подробнее</div>--}}
-                                </div>
-                            </div>
-                        @endforeach
+{{--                        @foreach($fnews as $one)--}}
+{{--                            <div class="item item-t item-hr add-shows">--}}
+{{--                                <div class="teaser">--}}
+{{--                                    <a href="@if (!is_null($one->url)) {{  route('link', $one->id) }} @else {{ route('full', $one->slug) }} @endif"--}}
+{{--                                       target="_blank"></a>--}}
+{{--                                    <div class="item-overlay"></div>--}}
+{{--                                    <div class="item-overlay-blur">--}}
+{{--                                        <img src="{{ asset($one->image) }}">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="item-image">--}}
+{{--                                        <img src="{{ asset($one->image) }}">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="item-title">{{$one->title}}</div>--}}
+{{--                                    --}}{{--                                         <div class="item-category">Суставы</div>--}}
+{{--                                    --}}{{--                                         <div class="item-date">8 минут назад</div>--}}
+{{--                                    --}}{{--                                          <div class="item-button">Подробнее</div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        @endforeach--}}
 
-                        <div id="content_rb_154870" class="content_rb" data-id="154870"></div>
-
+                        <div id="hilu-metimecolonosarupone">
+                            <script>
+                                !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                                    {id:'hilu-metimecolonosarupone',block:'98406', site_id:'19725'}
+                                );})(window, 'mtzBlocks');
+                            </script>
+                        </div>
 
                         <div>
                             {!! $full->body !!}
@@ -77,13 +82,52 @@
             <div class="w-50 right">
                 <div class="items-box sticky">
                     <div class="item-title">Рекомендуем</div>
-                    @include('layouts.rigthFullNews', compact('rnews'))
+{{--                    @include('layouts.rigthFullNews', compact('rnews'))--}}
+
+                   <div id="gimituf-eyihujaxokudasesa">
+                        <script>
+                            !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                                {id:'gimituf-eyihujaxokudasesa',block:'98407', site_id:'19725'}
+                            );})(window, 'mtzBlocks');
+                        </script>
+                    </div>
+
                 </div>
             </div>
         </div>
         <div class="container container-list w-100">
             <div class="items-box" id="load">
-                @include('layouts.news', compact('tnews'))
+{{--                @include('layouts.news', compact('tnews'))--}}
+
+                <div id="xom-irawucakoxaxabukeyefe">
+                    <script>
+                        !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                            {id:'xom-irawucakoxaxabukeyefe',block:'98257', site_id:'19725'}
+                        );})(window, 'mtzBlocks');
+                    </script>
+                </div>
+                <div id="zed-egufovanelotidutokeqo">
+                    <script>
+                        !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                            {id:'zed-egufovanelotidutokeqo',block:'98258', site_id:'19725'}
+                        );})(window, 'mtzBlocks');
+                    </script>
+                </div>
+                <div id="konej-idavamokecicuvaliti">
+                    <script>
+                        !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                            {id:'konej-idavamokecicuvaliti',block:'98403', site_id:'19725'}
+                        );})(window, 'mtzBlocks');
+                    </script>
+                </div>
+                <div id="forebul-ipidelekemohidoye">
+                    <script>
+                        !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                            {id:'forebul-ipidelekemohidoye',block:'98404', site_id:'19725'}
+                        );})(window, 'mtzBlocks');
+                    </script>
+                </div>
+
             </div>
             {{--            <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
         </div>
