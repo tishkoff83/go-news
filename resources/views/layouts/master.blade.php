@@ -25,7 +25,7 @@
 <header class="header">
     <div class="container container-header">
         <div class="logo">
-           <p>ok-news</p>
+           <p>go-news</p>
         </div>
         <div class="navigation" id="nav">
             <a  href="./index.php?category=7">События</a>
@@ -47,21 +47,21 @@
 <footer class="footer">
     <div class="container container-header">
         <div class="logo">
-            <p>ok-news.online</p>
+            <p>go-news.ru</p>
         </div>
     </div>
 </footer>
 <script src="{{ asset('js/script.js') }}"></script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47837288, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47837288" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
-<!--LiveInternet counter--><script type="text/javascript">
-    document.write('<a href="//www.liveinternet.ru/click" '+
-        'target="_blank"><img src="//counter.yadro.ru/hit?t45.1;r'+
-        escape(document.referrer)+((typeof(screen)=='undefined')?'':
-            ';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
-            screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
-        ';h'+escape(document.title.substring(0,150))+';'+Math.random()+
-        '" alt="" title="LiveInternet" '+
-        'border="0" width="1" height="1"><\/a>')
-</script><!--/LiveInternet-->
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47303829, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47303829" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!--LiveInternet counter--><a href="//www.liveinternet.ru/click"
+                              target="_blank"><img id="licntFA5C" width="1" height="1" style="border:0"
+                                                   title="LiveInternet"
+                                                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                                                   alt=""/></a><script>(function(d,s){d.getElementById("licntFA5C").src=
+        "//counter.yadro.ru/hit?t45.1;r"+escape(d.referrer)+
+        ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+            (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+        ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+    (document,screen)</script><!--/LiveInternet-->
 </body>
 </html>
