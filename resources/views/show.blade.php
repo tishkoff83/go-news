@@ -55,6 +55,13 @@
                     );})(window, 'mtzBlocks');
                 </script>
             </div>
+            <div id="zed-egufovanelotidutokeqo">
+                <script>
+                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                        {id:'zed-egufovanelotidutokeqo',block:'98258', site_id:'19725'}
+                    );})(window, 'mtzBlocks');
+                </script>
+            </div>
 {{--            @include('layouts.news', compact('tnews'))--}}
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
