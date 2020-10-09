@@ -48,7 +48,14 @@
                     <div class="item-button">Читать полностью</div>
                 </div>
             </div>
-            @include('layouts.news', compact('tnews'))
+            <div id="xom-irawucakoxaxabukeyefe">
+                <script>
+                    !(function(w,m){(w[m]||(w[m]=[]))&&w[m].push(
+                        {id:'xom-irawucakoxaxabukeyefe',block:'98257', site_id:'19725'}
+                    );})(window, 'mtzBlocks');
+                </script>
+            </div>
+{{--            @include('layouts.news', compact('tnews'))--}}
         </div>
 {{--        <div class="loader"><img src="./assets/img/loading.gif"></div>--}}
     </div>

