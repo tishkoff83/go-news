@@ -28,13 +28,13 @@
            <p>go-news</p>
         </div>
         <div class="navigation" id="nav">
-            <a  href="./index.php?category=7">События</a>
-            <a  href="./index.php?category=27">Здоровье</a>
-            <a  href="./index.php?category=17">Интересное</a>
-            <a  href="./index.php?category=6">Экономика</a>
-            <a  href="./index.php?category=5">Общество</a>
-            <a  href="./index.php?category=2">Шоу-бизнес</a>
-            <a  href="./index.php?category=3">Происшествия</a>
+            <a  href="?category=7">События</a>
+            <a  href="?category=27">Здоровье</a>
+            <a  href=".?category=17">Интересное</a>
+            <a  href="?category=6">Экономика</a>
+            <a  href="?category=5">Общество</a>
+            <a  href="?category=2">Шоу-бизнес</a>
+            <a  href="?category=3">Происшествия</a>
             <a class="icon" onclick="toggleNav()">
                 &#9776;
             </a>
